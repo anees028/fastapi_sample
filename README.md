@@ -6,4 +6,10 @@ First we need to setup virtual environement for running the appilcation by follo
 python3 -m venv env
 
 In terminal activate the virtual environement. 
-CMD  =>    source env/bin/activate
+1. CMD  =>    source env/bin/activate
+
+2. Now install the fastapi in virtual environement
+    CMD =>  pip install fastapi  
+
+3. Now install the uvicorn in virtual environement
+    CMD =>  pip install uvicorn
