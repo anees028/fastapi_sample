@@ -14,5 +14,11 @@ In terminal activate the virtual environement.
 3. Now install the uvicorn in virtual environement
     CMD =>  pip install uvicorn
 
-4. Now install the pymongo==3.11 fron atlas mongodb from site in virtual environement
+4. Now install the pymongo==3.11 from atlas mongodb from site in virtual environement
     CMD =>  python -m pip install pymongo==3.11
+
+5. Now install the pymongo[srv] in virtual environement
+    CMD =>  pip install 'pymongo[srv]' 
+
+6. Run the backend by the following command.
+    CMD =>  uvicorn main:app --reload
